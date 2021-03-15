@@ -13,6 +13,7 @@ namespace VisualStudioGitPractice.Controllers
         {
             Employee emp = new Employee();
             emp.Name = "John Doe";
+            emp.Location = "MOH";
             return View(emp);
         }
     }
